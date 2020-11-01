@@ -31,7 +31,8 @@ void copy(char to[], char from[]){
 
 void reverse(char line[], int len){
     printf("%d",len);
-    for(int i = len; i >= 0; i--){
+    for(int i = len; i >= 0; i--){      //I'll just print it because 
+                                        //if stores, the value is not useful later.
         printf("%c",line[i]);
     }
     printf("\n");
