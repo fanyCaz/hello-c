@@ -4,6 +4,11 @@
 //stdio to input/output
 #include <stdio.h>
 
+//Constants
+#define LOWER 0
+#define UPPER 300
+#define STEP 20
+
 //main() always exists.
 main(){
     //you send an argument, the function receives a parameter
@@ -25,6 +30,10 @@ main(){
         printf("%2.0f\t%5.2f\n",fahr,celsius);
         fahr += step;
     }
-
-
+    printf("Using for\n");
+    for(fahr = LOWER; fahr <= UPPER; fahr+=STEP){
+        celsius = 5 * (fahr-32)/9;
+        printf("%2.0f\t%5.2f\n",fahr,celsius);
+    }
+    return 0;
 }
