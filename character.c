@@ -2,7 +2,7 @@
 
 int main(int argc, char const *argv[])
 {
-    printf("Write 0 to end the input text\n");
+    
     int c,comparison,counter = 0;
     //c = getchar();
     while(c != EOF){ //EOF end of file

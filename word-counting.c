@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
     int c,n1,nw,nc,state;
     state = OUT;
     n1 = nw = nc = 0;
+    printf("Write whatever you want and then finish with a .\n");
     while ((c = getchar()) != '.')  //this is while the word has something different that '.'
     {
         ++nc;
